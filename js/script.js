@@ -2,7 +2,7 @@
 // 	selector: '#timer-1',
 // 	targetDate: new Date('Jul 17, 2019'),
 // });
-const endDate = new Date("August 27, 2020 21:26:00").getTime();
+const endDate = new Date("August 28, 2020 13:12:00").getTime();
 
 
 const timer = () => {
