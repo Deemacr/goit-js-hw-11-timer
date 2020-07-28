@@ -24,7 +24,7 @@ const timer = () => {
 		document.querySelector('[data-value="mins"]').innerHTML = '0';
 		document.querySelector('[data-value="secs"]').innerHTML = '0';
 	}
-	const timerFilter = setInterval(timer, 1000);
+	timerFilter()
 }
-
+const timerFilter = setInterval(timer, 1000);
 timer()
